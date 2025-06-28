@@ -1,4 +1,4 @@
-import AuthLayout from "@/components/layouts/AuthLayouts";
+import AuthLayout from "@/components/layouts/AuthLayout";
 import Register from "@/components/views/Auth/Register";
 
 const RegisterPage = () => {
