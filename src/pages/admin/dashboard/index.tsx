@@ -3,7 +3,11 @@ import Dashboard from "@/components/views/Admin/Dashboard";
 
 const DashboardAdminPage = () => {
   return (
-    <DashboardLayout title="Dashboard" description="Welcome to your dashboard!" type="admin">
+    <DashboardLayout
+      title="Dashboard"
+      description="Welcome to your dashboard!"
+      type="admin"
+    >
       <Dashboard />
     </DashboardLayout>
   );
