@@ -37,6 +37,7 @@ const useCategory = () => {
     data: dataCategory,
     isLoading: isLoadingCategory,
     isRefetching: isRefetchingCategory,
+    refetch: refetchCategory,
   } = useQuery({
     queryKey: ["Categories", currentLimit, currentPage, currentSearch],
     queryFn: getCategories,
@@ -90,6 +91,7 @@ const useCategory = () => {
     dataCategory,
     isLoadingCategory,
     isRefetchingCategory,
+    refetchCategory,
 
     currentLimit,
     currentPage,
