@@ -61,7 +61,12 @@ const IconTab = (props: PropTypes) => {
               isLoaded={!!currentIcon}
               className="aspect-square rounded-lg"
             >
-              <Image src={currentIcon} alt="icon" fill className="!relative" />
+              <Image
+                src={currentIcon}
+                alt="icon"
+                fill
+                className="!relative rounded-lg"
+              />
             </Skeleton>
           </div>
           <Controller
